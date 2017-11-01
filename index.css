@@ -1,0 +1,48 @@
+h1 {
+    color: rgba(255,0,0,0.9);
+    font-size: 30px;
+}
+
+p {
+    color: green;
+}
+
+#chosen {
+    font-weight: bold;
+}
+
+.em {
+    font-style: italic;
+}
+
+#chosen, .em {
+    border: 1px dashed blue;
+}
+
+article > p {
+    color: blue;
+}
+
+article + p {
+    color: red;
+}
+
+a[href^="https"] {
+    color: green;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+p::before {
+    content: "{";
+}
+p::after {
+    content: "}";
+}
+p:hover {
+font-weight: bold;
+    
+}
+}
